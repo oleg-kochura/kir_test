@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- BLOCK  INDEXATION -->
+    <meta name="robots" content="noindex">
+    <!-- <link href="img/favicon.ico" rel="shortcut icon"> -->
+    <title>WonderBox</title>
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- Font CSS -->
+    <link rel="stylesheet" type="text/css" href="css/fonts/HelveticaNeue-Bold.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts/HelveticaNeue-Medium.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts/HelveticaNeue-Cyr.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/fonts/Gotham-Pro-Medium.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts/SocialMediaFont.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts/Gotham-Pro.css">
+    <!-- CSS -->
+    <!-- <link href="css/main.css" rel="stylesheet"> -->
+    <link href="css/reviews.css" rel="stylesheet"> 
+    <!-- <link href="css/reviews.min.css" rel="stylesheet">  -->
+    <!-- <link hr<!-- ef="src/sass/lib/customize-scroll.css" rel="stylesheet"> -->
+    <!-- JS -->
+    <script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="clearfix">
+        <div class="top-icons clearfix">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="">
+                    <p>Logo</p>
+                </a>
+            </div>
+            <div class="search-pro">
+                <a href="" class="icon-inner-txt">SEARCH PRO</a>
+            </div>
+            <div class="experts-qa">
+                <a href="" class="icon-inner-txt">Experts Q&A</a>
+            </div>
+            <a href="">
+                <div class="triangle-icon header-icon"></div>
+            </a>
+            <div class="face-icon header-icon outer">
+            </div>
+            <div class="bell header-icon outer">
+                <div class="drop-icon">
+                    <p class="drop-icon-text">13</p>
+                </div>
+            </div>
+            <div class="become-pro header-icon outer">
+                <a href="" class="icon-inner-txt inner">Become Pro</a>
+            </div>
+        </div>
+        <!-- Header menu -->
+        <div class="header-navigation-div">
+            <ul class="header-navigation">
+                <li class="header-navigation-item"><a href="/">Main</a></li>
+                <li class="header-navigation-item"><a href="/">House</a></li>
+                <li class="header-navigation-item"><a href="/">General services</a></li>
+                <li class="header-navigation-item"><a href="/">Plumbing</a></li>
+            </ul>
+        </div>
+        <!-- Avatar -->
+        <div class="header-bio-div clearfix">
+            <div class="image-wrap">
+                <div class="avatar-box"><img src="img/photo-img.png" class="avatar" alt="Olek Sheveiko"></div>
+            </div>
+            <!-- Mame -->
+            <div class="name">
+                <div class="name-box">
+                    <h3>Olek Sheveiko</h3>
+                </div>
+                <div class="location-box">
+                    <p>75020 Paris 20</p>
+                </div>
+            </div>
+            <!-- Star raiting -->
+            <div class="rate-block">
+                <div id="reviewStars-input">
+                    <input id="star-4" type="radio" name="reviewStars" />
+                    <label title="gorgeous" for="star-4"></label>
+                    <input id="star-3" type="radio" name="reviewStars" />
+                    <label title="good" for="star-3"></label>
+                    <input id="star-2" type="radio" name="reviewStars" />
+                    <label title="regular" for="star-2"></label>
+                    <input id="star-1" type="radio" name="reviewStars" />
+                    <label title="poor" for="star-1"></label>
+                    <input id="star-0" type="radio" name="reviewStars" />
+                    <label title="bad" for="star-0"></label>
+                </div>
+                <p class="reviews-counter" id="reviews-counter">Based on 13 reviews</p>
+                <p class="registration-date">Registered 11 may, 2014</p>
+            </div>
+        </div>
+    </header>
+    <!-- Navigation -->
+    <nav>
+        <ul class="navigation-list clearfix">
+            <li class="navigation-item"><a href="index.html">About</a></li>
+            <li class="navigation-item active-nav-item"><a href="reviews.html">Reviews</a></li>
+            <li class="navigation-item"><a href="">Q&A</a></li>
+        </ul>
+    </nav>
+    <!-- Main content -->
+    <main class="clearfix">
+        <div class="big_block clearfix">
+            <section class="comment-filter clearfix">
+                <div class="client">
+                    <p class="client_stat">Client Reviews</p>
+                </div>
+                <section class="sorting-box">
+                    <p>Sort:</p>
+                    <ul class="clearfix">
+                        <li class="filtering-link" href="#">Time</li>
+                        <li class="filtering-link" href="#">Raiting</li>
+                    </ul>
+                </section>
+                <section class="sorting-box dropdown">
+                    <p>Show for:</p>
+                    <ul class="clearfix">
+                        <li class="filtering-link dropdown-link" href="">All services
+                            <div class="triangle-icon"></div>
+                            <ul class="dropdawn-menu filtering-link">
+                                <li class="dropdawn-menu-item">Item 1</li>
+                                <li class="dropdawn-menu-item">Item 2</li>
+                                <li class="dropdawn-menu-item">Item 3</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+        </div>
+        <div class="wrapper clearfix">
+            <!-- Comment block -->
+            <div class="comment-block clearfix">
+                <div class="comment-block-wrapper clearfix">
+                    <div class="comment-block-bottom clearfix">
+                        <div class="rate-comment-block">
+                            <div id="reviewStars-comment-input">
+                                <form action="">
+                                    <input id="rate-star-4" type="radio" name="reviewStars" />
+                                    <label title="gorgeous" for="rate-star-4"></label>
+                                    <input id="rate-star-3" type="radio" name="reviewStars" />
+                                    <label title="good" for="rate-star-3"></label>
+                                    <input id="rate-star-2" type="radio" name="reviewStars" />
+                                    <label title="regular" for="rate-star-2"></label>
+                                    <input id="rate-star-1" type="radio" name="reviewStars" />
+                                    <label title="poor" for="rate-star-1"></label>
+                                    <input id="rate-star-0" type="radio" name="reviewStars" />
+                                    <label title="bad" for="rate-star-0"></label>
+                                </form>
+                            </div>
+                            <p class="comment-title">for Windows installation</p>
+                        </div>
+                        <p class="comment-date">May 11, 2015</p>
+                    </div>
+                    <p class="comment">Dear Colleagues, I do recommend Oleksandr as strong designer who creates really great pages and logos and also can give huge amount of suggestions how to improve site user interface and logic. All the best to him and thank you so much.”</p>
+                    </div>
+                    <div class="comment-bottom-row clearfix">
+                    <div class="comment-author">
+                        <p class="avatar-author">Johny Dillenger</p>
+                    </div>
+                    <div class="vote-block">
+                        <p class="vote-block-question">What this rewiev useful?</p>
+                        <div class="vote-choose-block">
+                            <p class="choose-your-side">Yes</p>
+                            <p class="vote-counter">25</p>
+                        </div>
+                        <div class="vote-choose-block">
+                            <p class="choose-your-side">No</p>
+                            <p class="vote-counter">14</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            <!-- !!!!!!!!!!!!!!! -->
+            <div class="comments-connection">
+            </div>
+            <div class="comment-block answer-comment clearfix">
+                <div class="comment-block-wrapper clearfix">
+                    <p class="comment answer-comment-txt">Dear Colleagues, I do recommend Oleksandr as strong designer who creates really great pages and logos and also can give huge amount of suggestions how to improve site user interface and logic. All the best to him and thank you so much.”</p>
+                    <div class="comment-author answer-comment-author">
+                        <p class="avatar-author">Johny Dillenger</p>
+                    </div>
+                </div>
+            </div>
+             <div class="comment-block clearfix">
+                <div class="comment-block-wrapper clearfix">
+                    <div class="comment-block-bottom clearfix">
+                        <div class="rate-comment-block">
+                            <div id="reviewStars-comment-input">
+                                <form action="">
+                                    <input id="rate-star-4" type="radio" name="reviewStars" />
+                                    <label title="gorgeous" for="rate-star-4"></label>
+                                    <input id="rate-star-3" type="radio" name="reviewStars" />
+                                    <label title="good" for="rate-star-3"></label>
+                                    <input id="rate-star-2" type="radio" name="reviewStars" />
+                                    <label title="regular" for="rate-star-2"></label>
+                                    <input id="rate-star-1" type="radio" name="reviewStars" />
+                                    <label title="poor" for="rate-star-1"></label>
+                                    <input id="rate-star-0" type="radio" name="reviewStars" />
+                                    <label title="bad" for="rate-star-0"></label>
+                                </form>
+                            </div>
+                            <p class="comment-title">for Windows installation</p>
+                        </div>
+                        <p class="comment-date">May 11, 2015</p>
+                    </div>
+                    <p class="comment">Dear Colleagues, I do recommend Oleksandr as strong designer who creates really great pages and logos and also can give huge amount of suggestions how to improve site user interface and logic. All the best to him and thank you so much.”</p>
+                    </div>
+                    <div class="comment-bottom-row unreaded-messages clearfix">
+                    <div class="comment-author">
+                        <p class="avatar-author">Johny Dillenger</p>
+                    </div>
+                    <div class="vote-block">
+                        <p class="vote-block-question">What this rewiev useful ?</p>
+                        <div class="vote-choose-block">
+                            <p class="choose-your-side">Yes</p>
+                            <p class="vote-counter">25</p>
+                        </div>
+                        <div class="vote-choose-block">
+                            <p class="choose-your-side">No</p>
+                            <p class="vote-counter">14</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            <!-- Fourth comment block -->
+             <div class="comment-block clearfix">
+                <div class="comment-block-wrapper foggy clearfix">
+                    <div class="comment-block-bottom clearfix">
+                        <div class="rate-comment-block">
+                            <div id="reviewStars-comment-input">
+                                <form action="">
+                                    <input id="rate-star-4" type="radio" name="reviewStars" />
+                                    <label title="gorgeous" for="rate-star-4"></label>
+                                    <input id="rate-star-3" type="radio" name="reviewStars" />
+                                    <label title="good" for="rate-star-3"></label>
+                                    <input id="rate-star-2" type="radio" name="reviewStars" />
+                                    <label title="regular" for="rate-star-2"></label>
+                                    <input id="rate-star-1" type="radio" name="reviewStars" />
+                                    <label title="poor" for="rate-star-1"></label>
+                                    <input id="rate-star-0" type="radio" name="reviewStars" />
+                                    <label title="bad" for="rate-star-0"></label>
+                                </form>
+                            </div>
+                            <p class="comment-title">for Windows installation</p>
+                        </div>
+                        <p class="comment-date">May 11, 2015</p>
+                    </div>
+                    <p class="comment">Dear Colleagues, I do recommend Oleksandr as strong designer who creates really great pages and logos and also can give huge amount of suggestions how to improve site user interface and logic. All the best to him and thank you so much.”</p>
+                    </div>
+                    <div class="unreaded-messages clearfix">
+                    <div class="comment-author foggy">
+                        <p class="avatar-author">Johny Dillenger</p>
+                    </div>
+                    <div class="vote-block">
+                        <p class="vote-block-question">What this rewiev useful?</p>
+                        <div class="vote-choose-block">
+                            <p class="choose-your-side">Yes</p>
+                            <p class="vote-counter">10</p>
+                        </div>
+                        <div class="vote-choose-block">
+                            <p class="choose-your-side">No</p>
+                            <p class="vote-counter">153</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+    </main>
+    <!-- Footer -->
+    <footer class="clearfix">
+        <div class="footer-wrapper clearfix">
+            <div class="first-coloumn-footer clearfix">
+                <div class="left-footer-block">
+                    <div class="footer-logo"></div>
+                    <p class="copyright-info">&#0169; 2015 StarOfService S.A.S Mentions</p>
+                    <ul class="soc">
+                        <li>
+                            <a class="soc-twitter" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="soc-facebook" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="soc-google" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="soc-pinterest" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="soc-soundcloud soc-icon-last" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="central-footer-block">
+                    <ul class="footer-info-list">
+                        <h4 class="">STAR OF SERVICE</h4>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Team</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                    <ul class="footer-info-list">
+                        <h4 class="">CLIENTS</h4>
+                        <li><a href="">How it works</a></li>
+                        <li><a href="">Security</a></li>
+                        <li><a href="">Directory</a></li>
+                        <li><a href="">Guides</a></li>
+                    </ul>
+                    <ul class="footer-info-list">
+                        <h4 class="">BUSINESSES</h4>
+                        <li><a href="">How it works</a></li>
+                        <li><a href="">Job offer</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Support For</a></li>
+                        <li><a href="">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="right-footer-block">
+                    <h4 class="right-footer-header">Questions? Need help?</h4>
+                    <a class="footer-btn" href="">Contact Us</a>
+                </div>
+            </div>
+            <div class="second-coloumn-footer">
+                <ul class="bottom-list">
+                    <li class="bottom-list-item"><a href="">Alsace</a></li>
+                    <li class="bottom-list-item"><a href="">Aquaitaine</a></li>
+                    <li class="bottom-list-item"><a href="">Auvergne</a></li>
+                    <li class="bottom-list-item"><a href="">Lower Normandy</a></li>
+                    <li class="bottom-list-item"><a href="">Burgundy</a></li>
+                    <li class="bottom-list-item"><a href="">Brittany</a></li>
+                    <li class="bottom-list-item"><a href="">Centre</a></li>
+                    <li class="bottom-list-item"><a href="">Champagne-Ardenne </a></li>
+                    <li class="bottom-list-item"><a href="">Corsica</a></li>
+                    <li class="bottom-list-item"><a href="">Franche-Comte</a></li>
+                    <li class="bottom-list-item"><a href="">Guadeloupe Guyana</a></li>
+                    <li class="bottom-list-item"><a href="">Haute-Normandie</a></li>
+                    <li class="bottom-list-item"><a href="">IIe-de-France</a></li>
+                    <li class="bottom-list-item"><a href="">The Meeting</a></li>
+                    <li class="bottom-list-item"><a href="">Languedo-Roussillon</a></li>
+                    <li class="bottom-list-item"><a href="">Limousin</a></li>
+                    <li class="bottom-list-item"><a href="">Lorraine</a></li>
+                    <li class="bottom-list-item"><a href="">Martinique</a></li>
+                    <li class="bottom-list-item"><a href="">Midi-Parenees</a></li>
+                    <li class="bottom-list-item"><a href="">Nord Pas de Calais</a></li>
+                    <li class="bottom-list-item"><a href="">Overseas</a></li>
+                    <li class="bottom-list-item"><a href="">Pays de la Noire</a></li>
+                    <li class="bottom-list-item"><a href="">Picardie</a></li>
+                    <li class="bottom-list-item"><a href="">Poitou-Charentes</a></li>
+                    <li class="bottom-list-item"><a href="">Provence-Alpes-Cote d’Azur</a></li>
+                    <li class="bottom-list-item"><a href="">Rhone-Alpes</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
