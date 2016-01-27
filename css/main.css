@@ -53,17 +53,36 @@ margin-top: -0.625em;
 	text-align: center;
 }
 
-.search-pro {
+
+.search-pro,
+.experts-qa {
+    font-family: "Helvetica Neue";
+    font-size: 13px;
+    color: #dce2ec;
 	float: left;
-    background: url('../img/loupe-img.png') 2px 50% no-repeat;
-    margin: 10px 0 0 45px;
+    margin: 11px 0 0 54px;
 }
 
-.experts-qa {
-	float: left;
-    background: url('../img/question-img.png') 2px 50% no-repeat;
-    margin: 10px 0 0 45px;
+.search-pro:before {
+    content: "";
+    float: left;
+    position: relative;
+    display: block;
+    background: url(../img/Sprite.png) -160px -68px no-repeat;
+    width: 11px; 
+    height: 11px;
 }
+
+.experts-qa:before {
+    content: "";
+    float: left;
+    position: relative;
+    display: block;
+    background: url(../img/Sprite.png) -160px -52px  no-repeat;
+    width: 14px; 
+    height: 14px;
+}
+
 
 .icon-inner-txt{
     font-family: "Helvetica Neue";
@@ -500,82 +519,121 @@ ul.text {
     list-style-type: none; /* Убираем маркеры у списка */
    }
 .text li:before {
-    content: "- "; /* Добавляем в качестве маркера символ */
+    content: "- ";  /*Добавляем в качестве маркера символ */
    }
 
-aside {
+
+
+
+/*             Verifications and contacts                  */
+
+.verify-contact {
     border-radius: 4px;
-    margin: 0 0 0px 53px;
     background: #ffffff;
+    box-shadow: 0 0 12px #e8e8e8;
 }
+
 .verification {
-	font-family: Helvetica Neue;
+    padding: 25px 0 0 12px;
+    font-family: Helvetica Neue;
     font-size: 17px;
-    margin: 32px 0px 0px 15px;
-}
-.menu li {
-	list-style-type: none;
-	font-family: Helvetica Neue;
-	font-weight: normal;
-	font-size: 16px;
-}
-.sprite {
-
-    background-image: url(../img/sprites.png);
-    background-repeat: no-repeat;
+    margin: 0px 0px 0px 16px;
 }
 
-.sprite-icon1{
-	background-position: -24.999996185302734px -29.000001907348633px ;
+.list-menu {
+    padding: 20px 0 25px 69px;
 }
 
-.sprite-icon10{
-	background-position: -20.00000762939453px -437.00001525878906px ;
+.list-menu li {
+    position: relative;
+    line-height: 45px;
+    list-style-type: none; /* Убираем маркеры у списка */
+    font-family: Helvetica Neue;
+    font-weight: 400;
+    font-size: 16px;
 }
 
-.sprite-icon11{
-	background-position: -21.00000762939453px -483.00001525878906px ;
+.aside-1:before,
+.aside-2:before,
+.aside-3:before,
+.aside-4:before,
+.aside-5:before,
+.aside-6:before,
+.aside-7:before,
+.aside-8:before,
+.aside-9:before,
+.aside-10:before,
+.aside-11:before,
+.aside-12:before {   
+    content: "";
+    float: left;
+    position: absolute;
+    display: block;
+    top: 9px;
+    left: -43px;
 }
 
-.sprite-icon12{
-	background-position: -20px -529.0000152587891px ;
+.aside-1:before {
+    background: url(../img/Sprite.png) -42px -96px no-repeat;
+    width: 25px; 
+    height: 20px;
+}
+.aside-2:before {
+    background: url(../img/Sprite.png) -28px -171px no-repeat;
+    width: 23px;
+    height: 24px;
+}
+.aside-3:before {
+    background: url(../img/Sprite.png) -29px -143px no-repeat;
+    width: 24px;
+    height: 26px;
+}
+.aside-4:before {
+    background: url(../img/Sprite.png) -53px -181px no-repeat;
+    width: 23px; 
+    height: 23px;
+}
+.aside-5:before {
+    background: url(../img/Sprite.png) -78px -188px no-repeat;
+    width: 23px;
+    height: 25px;
+}
+.aside-6:before {
+    background: url(../img/Sprite.png) -27px -197px no-repeat;
+    width: 23px;
+    height: 19px;
+}
+.aside-7:before {
+    background: url(../img/Sprite.png) -52px -206px no-repeat;
+    width: 22px; 
+    height: 24px;
+}
+.aside-8:before {
+    background: url(../img/Sprite.png) -55px -156px no-repeat;
+    width: 24px;
+    height: 23px;
+}
+.aside-9:before {
+    background: url(../img/Sprite.png) -83px -135px no-repeat;
+    width: 25px;
+    height: 26px;
+}
+.aside-10:before {
+    background: url(../img/Sprite.png) -96px -109px no-repeat;
+    width: 25px; 
+    height: 24px;
+}
+.aside-11:before {
+    background: url(../img/Sprite.png) -150px -109px no-repeat;
+    width: 25px; 
+    height: 24px;
+}
+.aside-12:before {
+    background: url(../img/Sprite.png) -29px -118px no-repeat;
+    width: 25px;
+    height: 23px;
 }
 
-.sprite-icon2{
-    background-position: -23.989585876464844px -69px;
-}
-
-.sprite-icon3{
-	background-position: -23.00000762939453px -114px ;
-}
-
-.sprite-icon4{
-	background-position: -24px -163px ;
-}
-
-.sprite-icon5{
-	background-position: -24px -208px ;
-}
-
-.sprite-icon6{
-	background-position: -23px -256px ;
-}
-
-.sprite-icon7{
-	background-position: -24.00000762939453px -299px ;
-}
-
-.sprite-icon8{
-	background-position: -20px -345px ;
-}
-
-.sprite-icon9{
-	background-position: -20.00000762939453px -391.00001525878906px ;
-}
-
-aside a {
-	color: #4a86f8;
-}
 .footer-wrapper {
     width: 1138px;
     margin: 0 auto;
@@ -782,9 +840,8 @@ aside a {
 }
 
 .share-us-box {
-	width: 360px;
-    margin: 48px 138px 0 42px;
-    padding-bottom: 68px;
+	width: 100%;
+    margin: 48px 0 68px 0px;
 }
 .share-input {
     font-size: 16px;
@@ -836,12 +893,9 @@ aside a {
 	height: ;
 }
 
-.aside-div {
+.right-menu {
 	width: 360px;
-    float: left;
-    width: 360px;*/
-box-shadow: 0 0 12px #e8e8e8;
-    margin: -147px 0 0 0;
+    float: right;
 }
 
 ul.menu {
