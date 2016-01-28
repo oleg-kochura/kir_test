@@ -10,6 +10,8 @@
     <meta name="robots" content="noindex">
     <!-- <link href="img/favicon.ico" rel="shortcut icon"> -->
     <title>WonderBox</title>
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" href="css/social-likes_classic.css">
     <!-- Font CSS -->
     <link rel="stylesheet" type="text/css" href="css/fonts/HelveticaNeue-Bold.css">
@@ -22,88 +24,84 @@
     <!-- CSS -->
     <!-- <link href="css/main.css" rel="stylesheet"> -->
     <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
     <!-- <link hr<!-- ef="src/sass/lib/customize-scroll.css" rel="stylesheet"> -->
     <!-- JS -->
     <script src="js/jquery.min.js"></script>
-	<script src="js/social-likes.min.js"></script>
+    <script src="js/social-likes.min.js"></script>
 </head>
 
 <body>
     <!-- Header -->
     <div class="wrapper header-wrapper">
-    <header class="clearfix">
-        <div class="top-icons clearfix">
-            <!-- Logo -->
-            <div class="logo">
+        <!-- Footer -->
+        <header class="clearfix">
+            <div class="top-icons clearfix">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="">
+                        <p>Logo</p>
+                    </a>
+                </div>
+                <p><a href="" class="search-pro">SEARCH PRO</a></p>
+                <p><a href="" class="experts-qa">Experts Q&A</a></p>
                 <a href="">
-                    <p>Logo</p>
+                    <div class="triangle-icon header-icon"></div>
                 </a>
-            </div>
-            <div class="search-pro">
-                <a href="" class="icon-inner-txt">SEARCH PRO</a>
-            </div>
-            <div class="experts-qa">
-                <a href="" class="icon-inner-txt">Experts Q&A</a>
-            </div>
-            <a href="">
-                <div class="triangle-icon header-icon"></div>
-            </a>
-            <div class="face-icon header-icon outer">
-            </div>
-            <div class="bell header-icon outer">
-                <div class="drop-icon">
-                    <p class="drop-icon-text">13</p>
+                <div class="face-icon header-icon outer">
+                </div>
+                <div class="bell header-icon outer">
+                    <div class="drop-icon">
+                        <p class="drop-icon-text">13</p>
+                    </div>
+                </div>
+                <div class="become-pro header-icon outer">
+                    <a href="" class="icon-inner-txt inner">Become Pro</a>
                 </div>
             </div>
-            <div class="become-pro header-icon outer">
-                <a href="" class="icon-inner-txt inner">Become Pro</a>
+            <!-- Header menu -->
+            <div class="header-navigation-div">
+                <ul class="header-navigation">
+                    <li class="header-navigation-item"><a href="/">Main</a></li>
+                    <li class="header-navigation-item"><a href="/">House</a></li>
+                    <li class="header-navigation-item"><a href="/">General services</a></li>
+                    <li class="header-navigation-item"><a href="/">Plumbing</a></li>
+                </ul>
             </div>
-        </div>
-        <!-- Header menu -->
-        <div class="header-navigation-div">
-            <ul class="header-navigation">
-                <li class="header-navigation-item"><a href="/">Main</a></li>
-                <li class="header-navigation-item"><a href="/">House</a></li>
-                <li class="header-navigation-item"><a href="/">General services</a></li>
-                <li class="header-navigation-item"><a href="/">Plumbing</a></li>
-            </ul>
-        </div>
-        <!-- Avatar -->
-        <div class="header-bio-div clearfix">
-            <div class="image-wrap">
-                <div class="avatar-box"><img src="img/photo-img.png" class="avatar" alt="Olek Sheveiko"></div>
-            </div>
-            <!-- Mame -->
-            <div class="name">
-                <div class="name-box">
-                    <h3>Olek Sheveiko</h3>
+            <!-- Avatar -->
+            <div class="header-bio-div clearfix">
+                <div class="image-wrap">
+                    <div class="avatar-box"><img src="img/photo-img.png" class="avatar" alt="Olek Sheveiko"></div>
                 </div>
-                <div class="location-box">
-                    <p>75020 Paris 20</p>
+                <!-- Mame -->
+                <div class="name">
+                    <div class="name-box">
+                        <h3>Olek Sheveiko</h3>
+                    </div>
+                    <div class="location-box">
+                        <p>75020 Paris 20</p>
+                    </div>
+                </div>
+                <!-- Star raiting -->
+                <div class="rate-block">
+                    <div id="reviewStars-input">
+                        <form action="">
+                            <input id="star-4" type="radio" name="reviewStars" />
+                            <label title="gorgeous" for="star-4"></label>
+                            <input id="star-3" type="radio" name="reviewStars" />
+                            <label title="good" for="star-3"></label>
+                            <input id="star-2" type="radio" name="reviewStars" />
+                            <label title="regular" for="star-2"></label>
+                            <input id="star-1" type="radio" name="reviewStars" />
+                            <label title="poor" for="star-1"></label>
+                            <input id="star-0" type="radio" name="reviewStars" />
+                            <label title="bad" for="star-0"></label>
+                        </form>
+                    </div>
+                    <p class="reviews-counter" id="reviews-counter">Based on 13 reviews</p>
+                    <p class="registration-date">Registered 11 may, 2014</p>
                 </div>
             </div>
-            <!-- Star raiting -->
-            <div class="rate-block">
-                <div id="reviewStars-input">
-                <form action="">
-                    <input id="star-4" type="radio" name="reviewStars" />
-                    <label title="gorgeous" for="star-4"></label>
-                    <input id="star-3" type="radio" name="reviewStars" />
-                    <label title="good" for="star-3"></label>
-                    <input id="star-2" type="radio" name="reviewStars" />
-                    <label title="regular" for="star-2"></label>
-                    <input id="star-1" type="radio" name="reviewStars" />
-                    <label title="poor" for="star-1"></label>
-                    <input id="star-0" type="radio" name="reviewStars" />
-                    <label title="bad" for="star-0"></label>
-                    </form>
-                </div>
-                <p class="reviews-counter" id="reviews-counter">Based on 13 reviews</p>
-                <p class="registration-date">Registered 11 may, 2014</p>
-            </div>
-        </div>
-    </header>
+        </header>
     </div>
     <!-- Navigation -->
     <nav>
@@ -117,25 +115,26 @@
     <!-- <div class="wrapper"> -->
     <main class="clearfix">
         <div class="wrapper big_block-wrapper">
-        <div class="big_block clearfix">
-            <div class="client">
-                <p class="client_stat">Client statics</p>
-            </div>
-            <div class="block1">
-                <p class="basta"><span class="Num">27</span>&nbsp;<span class="words">tasks created</span></p>
-                <p class="statics">46% hire rate</p>
-                <p class="statics">15 open requests</p>
-            </div>
-            <div class="block1 guf">
-                <p class="basta"><span class="Num">25</span>&nbsp;&nbsp;&nbsp;<span class="words">services booked</span></p>
-                <p class="statics">1546€ spent on booking</p>
-                <p class="statics">15€/hr avarage task rate</p>
-            </div>
-            <div class="block1 noggano">
-                <p class="basta"><span class="Num">0</span>&nbsp;&nbsp;<span class="words">booking cancelations</span></p>
-                <p class="statics">0 disputes situations</p>
-            </div>
-        </div>
+            <main class="clearfix">
+                <div class="big_block clearfix">
+                    <div class="client">
+                        <p class="client_stat">Client statics</p>
+                    </div>
+                    <div class="block1">
+                        <p class="basta"><span class="Num">27</span>&nbsp;<span class="words">tasks created</span></p>
+                        <p class="statics">46% hire rate</p>
+                        <p class="statics">15 open requests</p>
+                    </div>
+                    <div class="block1 guf">
+                        <p class="basta"><span class="Num">25</span>&nbsp;&nbsp;&nbsp;<span class="words">services booked</span></p>
+                        <p class="statics">1546€ spent on booking</p>
+                        <p class="statics">15€/hr avarage task rate</p>
+                    </div>
+                    <div class="block1 noggano">
+                        <p class="basta"><span class="Num">0</span>&nbsp;&nbsp;<span class="words">booking cancelations</span></p>
+                        <p class="statics">0 disputes situations</p>
+                    </div>
+                </div>
         </div>
         <div class="wrapper clearfix main-content-wrapper">
             <div class="main-text">
@@ -172,7 +171,6 @@
                         <li class="aside-12">Soundcloud verified</li>
                     </ul>
                 </div>
-
                 <div class="share-us-box clearfix">
                     <input type="text" class="share-input" value="http://servi.cc/ZuUN">
                     <ul class="soc share-social">
@@ -188,100 +186,100 @@
                     </ul>
                     <div class="hr"></div>
                     <div class="social-likes" data-url="http://servi.cc/ZuUN">
-                    <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Like</div>
-                    <div class="twitter" title="Поделиться ссылкой в Твиттере">Tweet</div>
-                    <div class="plusone" title="Поделиться ссылкой в Гугл-плюсе">Like</div>
+                        <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Like</div>
+                        <div class="twitter" title="Поделиться ссылкой в Твиттере">Tweet</div>
+                        <div class="plusone" title="Поделиться ссылкой в Гугл-плюсе">Like</div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
-    <!-- </div> -->
-    <!-- Footer -->
-    <footer class="clearfix">
-        <div class="footer-wrapper clearfix">
-            <div class="first-coloumn-footer clearfix">
-                <div class="left-footer-block">
-                    <div class="footer-logo"></div>
-                    <p class="copyright-info">&#0169; 2015 StarOfService S.A.S Mentions</p>
-                    <ul class="soc">
-                        <li>
-                            <a class="soc-twitter" href="#"></a>
-                        </li>
-                        <li>
-                            <a class="soc-facebook" href="#"></a>
-                        </li>
-                        <li>
-                            <a class="soc-google" href="#"></a>
-                        </li>
-                        <li>
-                            <a class="soc-pinterest" href="#"></a>
-                        </li>
-                        <li>
-                            <a class="soc-soundcloud soc-icon-last" href="#"></a>
-                        </li>
-                    </ul>
+            </main>
+            <!-- </div> -->
+            <!-- Footer -->
+            <footer class="clearfix">
+                <div class="footer-wrapper clearfix">
+                    <div class="first-coloumn-footer clearfix">
+                        <div class="left-footer-block">
+                            <div class="footer-logo"></div>
+                            <p class="copyright-info">&#0169; 2015 StarOfService S.A.S Mentions</p>
+                            <ul class="soc">
+                                <li>
+                                    <a class="soc-twitter" href="#"></a>
+                                </li>
+                                <li>
+                                    <a class="soc-facebook" href="#"></a>
+                                </li>
+                                <li>
+                                    <a class="soc-google" href="#"></a>
+                                </li>
+                                <li>
+                                    <a class="soc-pinterest" href="#"></a>
+                                </li>
+                                <li>
+                                    <a class="soc-soundcloud soc-icon-last" href="#"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="central-footer-block">
+                            <ul class="footer-info-list">
+                                <h4 class="">STAR OF SERVICE</h4>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Careers</a></li>
+                                <li><a href="">Team</a></li>
+                                <li><a href="">Blog</a></li>
+                            </ul>
+                            <ul class="footer-info-list">
+                                <h4 class="">CLIENTS</h4>
+                                <li><a href="">How it works</a></li>
+                                <li><a href="">Security</a></li>
+                                <li><a href="">Directory</a></li>
+                                <li><a href="">Guides</a></li>
+                            </ul>
+                            <ul class="footer-info-list">
+                                <h4 class="">BUSINESSES</h4>
+                                <li><a href="">How it works</a></li>
+                                <li><a href="">Job offer</a></li>
+                                <li><a href="">Careers</a></li>
+                                <li><a href="">Support For</a></li>
+                                <li><a href="">Testimonials</a></li>
+                            </ul>
+                        </div>
+                        <div class="right-footer-block">
+                            <h4 class="right-footer-header">Questions? Need help?</h4>
+                            <a class="footer-btn" href="">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="second-coloumn-footer">
+                        <ul class="bottom-list">
+                            <li class="bottom-list-item"><a href="">Alsace</a></li>
+                            <li class="bottom-list-item"><a href="">Aquaitaine</a></li>
+                            <li class="bottom-list-item"><a href="">Auvergne</a></li>
+                            <li class="bottom-list-item"><a href="">Lower Normandy</a></li>
+                            <li class="bottom-list-item"><a href="">Burgundy</a></li>
+                            <li class="bottom-list-item"><a href="">Brittany</a></li>
+                            <li class="bottom-list-item"><a href="">Centre</a></li>
+                            <li class="bottom-list-item"><a href="">Champagne-Ardenne </a></li>
+                            <li class="bottom-list-item"><a href="">Corsica</a></li>
+                            <li class="bottom-list-item"><a href="">Franche-Comte</a></li>
+                            <li class="bottom-list-item"><a href="">Guadeloupe Guyana</a></li>
+                            <li class="bottom-list-item"><a href="">Haute-Normandie</a></li>
+                            <li class="bottom-list-item"><a href="">IIe-de-France</a></li>
+                            <li class="bottom-list-item"><a href="">The Meeting</a></li>
+                            <li class="bottom-list-item"><a href="">Languedo-Roussillon</a></li>
+                            <li class="bottom-list-item"><a href="">Limousin</a></li>
+                            <li class="bottom-list-item"><a href="">Lorraine</a></li>
+                            <li class="bottom-list-item"><a href="">Martinique</a></li>
+                            <li class="bottom-list-item"><a href="">Midi-Parenees</a></li>
+                            <li class="bottom-list-item"><a href="">Nord Pas de Calais</a></li>
+                            <li class="bottom-list-item"><a href="">Overseas</a></li>
+                            <li class="bottom-list-item"><a href="">Pays de la Noire</a></li>
+                            <li class="bottom-list-item"><a href="">Picardie</a></li>
+                            <li class="bottom-list-item"><a href="">Poitou-Charentes</a></li>
+                            <li class="bottom-list-item"><a href="">Provence-Alpes-Cote d’Azur</a></li>
+                            <li class="bottom-list-item"><a href="">Rhone-Alpes</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="central-footer-block">
-                    <ul class="footer-info-list">
-                        <h4 class="">STAR OF SERVICE</h4>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Careers</a></li>
-                        <li><a href="">Team</a></li>
-                        <li><a href="">Blog</a></li>
-                    </ul>
-                    <ul class="footer-info-list">
-                        <h4 class="">CLIENTS</h4>
-                        <li><a href="">How it works</a></li>
-                        <li><a href="">Security</a></li>
-                        <li><a href="">Directory</a></li>
-                        <li><a href="">Guides</a></li>
-                    </ul>
-                    <ul class="footer-info-list">
-                        <h4 class="">BUSINESSES</h4>
-                        <li><a href="">How it works</a></li>
-                        <li><a href="">Job offer</a></li>
-                        <li><a href="">Careers</a></li>
-                        <li><a href="">Support For</a></li>
-                        <li><a href="">Testimonials</a></li>
-                    </ul>
-                </div>
-                <div class="right-footer-block">
-                    <h4 class="right-footer-header">Questions? Need help?</h4>
-                    <a class="footer-btn" href="">Contact Us</a>
-                </div>
-            </div>
-            <div class="second-coloumn-footer">
-                <ul class="bottom-list">
-                    <li class="bottom-list-item"><a href="">Alsace</a></li>
-                    <li class="bottom-list-item"><a href="">Aquaitaine</a></li>
-                    <li class="bottom-list-item"><a href="">Auvergne</a></li>
-                    <li class="bottom-list-item"><a href="">Lower Normandy</a></li>
-                    <li class="bottom-list-item"><a href="">Burgundy</a></li>
-                    <li class="bottom-list-item"><a href="">Brittany</a></li>
-                    <li class="bottom-list-item"><a href="">Centre</a></li>
-                    <li class="bottom-list-item"><a href="">Champagne-Ardenne </a></li>
-                    <li class="bottom-list-item"><a href="">Corsica</a></li>
-                    <li class="bottom-list-item"><a href="">Franche-Comte</a></li>
-                    <li class="bottom-list-item"><a href="">Guadeloupe Guyana</a></li>
-                    <li class="bottom-list-item"><a href="">Haute-Normandie</a></li>
-                    <li class="bottom-list-item"><a href="">IIe-de-France</a></li>
-                    <li class="bottom-list-item"><a href="">The Meeting</a></li>
-                    <li class="bottom-list-item"><a href="">Languedo-Roussillon</a></li>
-                    <li class="bottom-list-item"><a href="">Limousin</a></li>
-                    <li class="bottom-list-item"><a href="">Lorraine</a></li>
-                    <li class="bottom-list-item"><a href="">Martinique</a></li>
-                    <li class="bottom-list-item"><a href="">Midi-Parenees</a></li>
-                    <li class="bottom-list-item"><a href="">Nord Pas de Calais</a></li>
-                    <li class="bottom-list-item"><a href="">Overseas</a></li>
-                    <li class="bottom-list-item"><a href="">Pays de la Noire</a></li>
-                    <li class="bottom-list-item"><a href="">Picardie</a></li>
-                    <li class="bottom-list-item"><a href="">Poitou-Charentes</a></li>
-                    <li class="bottom-list-item"><a href="">Provence-Alpes-Cote d’Azur</a></li>
-                    <li class="bottom-list-item"><a href="">Rhone-Alpes</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+            </footer>
 </body>
 
 </html>
